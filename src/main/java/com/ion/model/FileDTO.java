@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import java.sql.Blob;
 import java.sql.SQLException;
 
-@Entity
+@Entity(name = "filelib")
 @Getter
 @Setter
 public class FileDTO {
